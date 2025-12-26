@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kang Rian - Digital Creator</title>
+    <meta name="description" content="Based in Bandung - Indonesia">
+    <link rel="icon" href="/web/20211210185427im_/http://kangrian.net/sharing/framework/img/icon.png">
+    <link rel="stylesheet" type="text/css" href="/web/20211210185427cs_/http://kangrian.net/sharing/framework/css/main.css">
+    <style type="text/css">
+    header {
+        display: flex;
+        min-height: calc(100vh - 60px);
+    }
+
+    header .wrapper .grid {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        direction: rtl;
+    }
+
+    header .wrapper .grid>* {
+        direction: ltr;
+    }
+
+    header .wrapper .grid figure img {
+        max-height: calc(100vh - 60px);
+    }
+
+    @media only screen and (max-width: 768px) {
+        header .wrapper .grid {
+            grid-template-columns: 1fr;
+            direction: ltr;
+        }
+
+        header .wrapper .grid figure img {
+            max-height: calc(60vh - 60px);
+        }
+
+        header .wrapper {
+            margin-bottom: 0;
+        }
+    }
+
+    header .wrapper .grid hgroup {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+
+    header .wrapper .grid hgroup h1 {
+        font-size: 400%;
+        font-weight: 600;
+        letter-spacing: -2px;
+    }
+
+    header .wrapper .grid hgroup blockquote {
+        border-top: 2px solid #eee;
+        padding-top: 20px;
+    }
+
+    main #sticky {
+        position: sticky;
+        z-index: 100;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: #232323;
+        color: white;
+        display: flex;
+        height: 60px;
+        font-size: 90%;
+        letter-spacing: 1px;
+    }
+
+    main #sticky .wrapper .grid {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+    }
+
+    main #sticky .wrapper .grid img {
+        max-height: 30px;
+    }
+
+    main #sticky .wrapper .grid nav {
+        display: flex;
+    }
+
+    main #sticky .wrapper .grid nav ul {
+        display: flex;
+        margin: auto;
+    }
+
+    main #sticky .wrapper .grid nav ul li {
+        display: block;
+        width: 100%;
+        margin: 0 10px;
+    }
+
+    main #sticky .wrapper .grid nav ul li a {
+        color: white;
+        line-height: 0;
+    }
+
+    main #sticky .wrapper .grid nav ul li a i svg {
+        fill: white;
+        stroke: white;
+    }
+    </style>
+</head>
+
+            footer .grid {
+                grid-template-columns: 1fr;
+                grid-gap: 40px;
+            }
+        }
+    </style>
+    <footer>
+        <div class="wrapper">
+            <div class="grid">
+                <div class="flex">
+                    <div class="wrap full">
+                        <h2>
+                            <b>Ada</b> Pertanyaan?
+                        </h2>
+                        <p>
+                            Silahkan hubungi saya, jika ada pertanyaan..
+                        </p>
+                        <br>
+                        <br>
+                        <form class="form" action="https://api.whatsapp.com/send" method="get">
+                            <input type="hidden" name="phone" value="6289618885066">
+                            <fieldset>
+                                <textarea name="text" placeholder="Tulis pertanyaan.." required></textarea>
+                                <label class="label">
+                                    Pesan
+                                </label>
+                            </fieldset>
+                            <button type="submit">
+                                <i class="logo-whatsapp left"></i>
+                                <b>Kirim</b> WhatsApp
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <style type="text/css">
+                .grid-credit {
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    border-left: 2px dashed var(--border);
+                }
+
+                @media only screen and (max-width: 768px) {
+                    .grid-credit {
+                        grid-template-columns: 1fr 3fr;
+                        border: 0;
+                        border-top: 2px dashed var(--border);
+                        padding: 20px 20px 0;
+                        margin: 0 -20px -20px;
+                    }
+                }
+
+                .grid-credit a img {
+                    max-height: 150px;
+                    opacity: .1;
+                }
+                </style>
+                <div class="grid-credit">
+                    <div class="flex">
+                        <a class="wrap" href="https://kangrian.net">
+                            <img src="sharing/framework/img/logo-black.png" />
+                        </a>
+                    </div>
+                    <div class="flex">
+                        <div class="wrap">
+                            <p>
+                                <small>
+                                    &copy;2010 - <b>KangRian.NET</b>
+                                </small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> -->
+    <script type="text/javascript" src="./jquery.min.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
